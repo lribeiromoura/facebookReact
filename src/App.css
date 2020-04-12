@@ -1,0 +1,123 @@
+#app{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#app:first-child {
+  margin-top: 100px;
+}
+
+.facebook {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  left: 0px;  
+  top: 0px;
+  background: #4A90E2;
+}
+
+.facebook-logo {
+  color: #FFF;
+  padding-left: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebook-post__container{
+  margin-bottom: 50px;
+  max-width: 700px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+}
+
+.facebook-post__post-details{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.facebook-post__post-author{
+  display: flex;
+  align-items: center;
+}
+
+.facebook-author__img{
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;  
+  border-radius: 16px;
+}
+
+.facebook-post__post-date{
+  margin-left: 10px;
+  height: 13px;
+  left: 1%;
+  right: 38%;
+  top: calc(50% - 13px/2 + 9.5px);
+  
+  font-family: Helvetica;
+  font-size: 11px;
+  line-height: 13px;  
+  color: #9A9A9A;
+}
+
+.facebook-post__post-content {
+  display: flex;
+  left: 0%;
+  right: 0%;
+
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+}
+
+.facebook-comment__post-comment{
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+}
+
+.facebook-comment__div{
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  background: #EEEEEE;
+  border-radius: 20px;
+}
+.facebook-comment__comment-name-author{
+  font-weight: 600;
+  margin-right: 5px;
+}
+.facebook-post__post-author-name{
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+}
+
+.facebook-post__divider{
+  width: 100%;
+  height: 1px;
+
+  background: #EEEEEE;
+}
+
+.facebook-comment__div-author{
+  display: flex;
+  align-items: center;
+}
+
+.facebook-comment__div-comment{
+  word-break: break-word;
+  padding: 5px;
+}
